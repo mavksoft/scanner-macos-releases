@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://scanner.net-analyzer.com/assets/img/logo.png" alt="Net-Analyzer Scanner" width="96">
+  <img src="./logo.png" alt="Net-Analyzer Scanner" width="96">
 </p>
 
 <h1 align="center">Net-Analyzer Scanner for macOS</h1>
@@ -70,3 +70,4 @@ dispositivos nuevos y herramientas de red integradas.
 - **[Descargar DMG](https://github.com/mavksoft/scanner-macos-releases/releases/latest)**
 - [Mac App Store](https://apps.apple.com/es/app/net-analyzer-esc%C3%A1ner-de-red/id6746715754)
 - Soporte: [support@it-systems.es](mailto:support@it-systems.es)
+
