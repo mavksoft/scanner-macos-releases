@@ -4,7 +4,13 @@ All notable releases published in this repository.
 
 ## v1.3.1 — 2026-10-05
 
-Ventana principal al 96% (margen 2%), columnas dimensionadas al contenido real (IPv6, MAC, cabecera de seguridad localizada), panel de detalle más ancho, propagación fiable del modo claro/oscuro/sistema a todas las ventanas, y emergente explicativo al activar la monitorización continua.
+## Release v1.3.1
+
+Official signed binaries. Docs: https://mavksoft.github.io/scanner-macos-releases/
+
+### Assets
+- `Scanner-Net-Analyzer-1.3.1.dmg`
+- `Scanner-Net-Analyzer-1.3.1.zip`
 
 **Assets:** `Scanner-Net-Analyzer-1.3.1.dmg` · `Scanner-Net-Analyzer-1.3.1.zip`
 

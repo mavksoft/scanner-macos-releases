@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./logo.png" alt="Net-Analyzer Scanner" width="96">
+  <img src="https://raw.githubusercontent.com/mavksoft/scanner-macos-releases/main/logo.png" alt="Net-Analyzer Scanner" width="96">
 </p>
 
 <h1 align="center">Net-Analyzer Scanner for macOS</h1>
@@ -23,9 +23,9 @@
 
 | | |
 |---|---|
-| 📥 **Versione completa** | [Scarica l'ultimo DMG](https://github.com/mavksoft/scanner-macos-releases/releases/latest) — firmato e notarizzato |
-| 🍎 **Mac App Store** | [Net-Analyzer — Scanner di rete](https://apps.apple.com/es/app/net-analyzer-esc%C3%A1ner-de-red/id6746715754) |
-| 🌍 **Sito ufficiale** | [scanner.net-analyzer.com](https://scanner.net-analyzer.com) |
+| <img src='https://raw.githubusercontent.com/mavksoft/scanner-macos-releases/main/icons/apple.svg' width='15' style='vertical-align:-2px' alt='apple'> **Versione completa** | [Scarica l'ultimo DMG](https://github.com/mavksoft/scanner-macos-releases/releases/latest) — firmato e notarizzato |
+| <img src='https://raw.githubusercontent.com/mavksoft/scanner-macos-releases/main/icons/appstore.svg' width='15' style='vertical-align:-2px' alt='appstore'> **Mac App Store** | [Net-Analyzer — Scanner di rete](https://apps.apple.com/es/app/net-analyzer-esc%C3%A1ner-de-red/id6746715754) |
+| <img src='https://raw.githubusercontent.com/mavksoft/scanner-macos-releases/main/logo.png' width='15' style='vertical-align:-2px'> **Sito ufficiale** | [scanner.net-analyzer.com](https://scanner.net-analyzer.com) |
 
 ## Che cos'è
 
