@@ -4,10 +4,7 @@
 
 <h1 align="center">Net-Analyzer Scanner for macOS</h1>
 
-<p align="center">
-  See every device on your network — right from your Mac's menu bar.<br>
-  Vendor identification, Wake-on-LAN, new-device alerts and built-in network tools.
-</p>
+<p align="center">See every device on your network — right from your Mac's menu bar.<br>Vendor identification, Wake-on-LAN, new-device alerts and built-in network tools.</p>
 
 <p align="center">
   <a href="https://scanner.net-analyzer.com"><img src="https://img.shields.io/badge/website-scanner.net--analyzer.com-0A84FF" alt="website"></a>
@@ -16,43 +13,63 @@
   <img src="https://img.shields.io/badge/license-commercial-orange" alt="commercial license">
 </p>
 
-> **This repository publishes official binary releases only** — Scanner is
-> closed-source commercial software. Questions and support:
-> [support@it-systems.es](mailto:support@it-systems.es).
+<p align="center">🌍 <a href="README.es.md">🇪🇸 Español</a> · <strong>🇬🇧 English</strong> · <a href="README.de.md">🇩🇪 Deutsch</a> · <a href="README.fr.md">🇫🇷 Français</a> · <a href="README.it.md">🇮🇹 Italiano</a> · <a href="README.pt.md">🇵🇹 Português</a></p>
+
+> **This repository publishes official binary releases only** — the source code is private. Signed downloads, checksums and auto-update feeds.
 
 ## Download
 
 | | |
 |---|---|
-| :inbox_tray: **Full version** | [Download the latest DMG](https://github.com/mavksoft/scanner-macos-releases/releases/latest) |
-| :apple: **Mac App Store** | [Net-Analyzer — Escáner de red](https://apps.apple.com/es/app/net-analyzer-esc%C3%A1ner-de-red/id6746715754) |
-| :globe_with_meridians: **Website** | [scanner.net-analyzer.com](https://scanner.net-analyzer.com) |
+| 📥 **Full version** | [Download the latest DMG](https://github.com/mavksoft/scanner-macos-releases/releases/latest) — signed & notarized |
+| 🍎 **Mac App Store** | [Net-Analyzer — Network scanner](https://apps.apple.com/es/app/net-analyzer-esc%C3%A1ner-de-red/id6746715754) |
+| 🌍 **Website** | [scanner.net-analyzer.com](https://scanner.net-analyzer.com) |
+
+## What it is
+
+Net-Analyzer Scanner is a lightweight menu-bar app that answers "what's connected to my Wi-Fi?" in seconds: it discovers every device on your LAN, tells you who made it, and alerts you when something new shows up.
 
 ## Features
 
-- **Full device discovery** — Bonjour, SSDP, TCP, ARP, NDP, SNMP and SMB
-  scanning finds everything on your LAN.
-- **Vendor identification** — OUI database tells you who made each device
-  (router, phone, camera, IoT…).
-- **New-device alerts** — get notified when something unknown joins your
-  network.
+- **Full device discovery** — Bonjour, SSDP, TCP, ARP, NDP, SNMP and SMB scanning finds everything on your LAN.
+- **Vendor identification** — the OUI database tells you who made each device (router, phone, camera, IoT…).
+- **New-device alerts** — get notified when something unknown joins your network.
 - **Wake-on-LAN** — wake machines remotely with one click.
 - **Router audit** — security checks against your gateway.
-- **Network tools** — ping, port scan, history and device notes.
+- **Network tools** — ping, port scan, history and per-device notes.
 - **Menu-bar first** — a lightweight SwiftUI app that lives in the menu bar.
-- **Six languages** — ES / EN / FR / IT / DE / PT, with remotely managed
-  updates.
+- **Six languages** — ES / EN / FR / IT / DE / PT, with remotely managed updates.
 
-## What's in this repo
+## How to use it
 
-Each [release](https://github.com/mavksoft/scanner-macos-releases/releases)
-contains:
+1. Download the DMG, drag the app to Applications and open it.
+2. The icon sits in the menu bar — click it and run a scan.
+3. Within seconds you get the device list: name, IP, MAC and vendor.
+4. Enable alerts to be told when a new device connects.
+5. Use Wake-on-LAN, ping or the port scanner from each device's card.
 
-- `Scanner-<version>.dmg` — signed + notarized installer
-- `Scanner-<version>.zip` — Sparkle update archive (EdDSA-signed), used by
-  the in-app auto-updater
+## Requirements
 
-The App Store edition is updated through the App Store itself.
+Recent macOS · Apple Silicon & Intel (universal binary) · Signed & notarized by Apple.
+
+## What's in this repository
+
+- `Scanner-Net-Analyzer-<version>.dmg` — signed + notarized installer
+- `Scanner-Net-Analyzer-<version>.zip` — Sparkle update archive (EdDSA-signed) used by the in-app auto-updater
+- The App Store edition is updated through the App Store itself.
+
+[Latest release](https://github.com/mavksoft/scanner-macos-releases/releases/latest)
+
+## FAQ
+
+**Why do I see "unknown" devices?**  
+Many devices don't advertise a name or services. The MAC vendor (OUI) usually gives it away — look for "Apple", "Espressif" (IoT), "Samsung"…
+
+**Can it wake a powered-off PC?**  
+Yes, if the machine has Wake-on-LAN enabled in BIOS/OS and is on the same network (or configured accordingly).
+
+**What's the difference between the DMG and the App Store build?**  
+Same app; the DMG updates via Sparkle while the App Store edition updates through Apple and runs sandboxed.
 
 ## Support
 
@@ -60,14 +77,4 @@ The App Store edition is updated through the App Store itself.
 - Email: [support@it-systems.es](mailto:support@it-systems.es)
 
 ---
-
-## Español
-
-Escáner de red para macOS: descubre todos los dispositivos de tu Wi-Fi desde
-la barra de menú — identificación de fabricante, Wake-on-LAN, alertas de
-dispositivos nuevos y herramientas de red integradas.
-
-- **[Descargar DMG](https://github.com/mavksoft/scanner-macos-releases/releases/latest)**
-- [Mac App Store](https://apps.apple.com/es/app/net-analyzer-esc%C3%A1ner-de-red/id6746715754)
-- Soporte: [support@it-systems.es](mailto:support@it-systems.es)
-
+<p align="center"><sub>Net-Analyzer Scanner for macOS · © MavkSoft / IT-Systems</sub></p>
