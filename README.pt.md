@@ -29,6 +29,8 @@
 
 O Net-Analyzer Scanner é uma app leve de barra de menus que responde em segundos a «o que está ligado ao meu Wi-Fi?»: descobre cada dispositivo da LAN, diz quem o fabricou e avisa quando aparece algo novo.
 
+<p align="center"><img src="./screenshots/website.png" width="300" alt="screenshot"> <img src="./screenshots/ios-1.jpg" width="160" alt="screenshot"> <img src="./screenshots/ios-2.jpg" width="160" alt="screenshot"> <img src="./screenshots/ios-3.jpg" width="160" alt="screenshot"></p>
+
 ## Funcionalidades
 
 - **Descoberta completa** — Bonjour, SSDP, TCP, ARP, NDP, SNMP e SMB encontram tudo na LAN.

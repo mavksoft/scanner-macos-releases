@@ -29,6 +29,8 @@
 
 Net-Analyzer Scanner ist eine leichte Menüleisten-App, die die Frage "Was hängt an meinem WLAN?" in Sekunden beantwortet: Sie findet jedes Gerät im LAN, nennt den Hersteller und warnt, wenn etwas Neues auftaucht.
 
+<p align="center"><img src="./screenshots/website.png" width="300" alt="screenshot"> <img src="./screenshots/ios-1.jpg" width="160" alt="screenshot"> <img src="./screenshots/ios-2.jpg" width="160" alt="screenshot"> <img src="./screenshots/ios-3.jpg" width="160" alt="screenshot"></p>
+
 ## Funktionen
 
 - **Vollständige Geräteerkennung** — Bonjour, SSDP, TCP, ARP, NDP, SNMP und SMB finden alles im LAN.
